@@ -1,9 +1,12 @@
 version: 0.1
 
 phases:
+  pre-build:
+    commands:
+        - npm install
+        - npm test
   build:
     commands:
-      - npm install
       - npm run webpack
 artifacts:
   files:
@@ -12,4 +15,4 @@ artifacts:
     - Sonie-Resume.pdf
     - styles/main.css
     - images/*
-    -dist/bundle.js
+    - dist/bundle.js
