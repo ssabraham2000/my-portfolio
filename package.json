@@ -1,19 +1,32 @@
 {
-  "name": "portfolio-builder",
+  "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "My Portfolio Builder",
-  "local-web-server": {
-    "port": 8000,
-    "forbid": "*.json"
+  "description": "My Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
   },
   "scripts": {
-    "start": "ws",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch"
   },
-  "author": "Sonie Abraham",
-  "license": "BSD-2-Clause",
-  "devDependencies": {
-    "local-web-server": "^1.1.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssabraham2000/my-portfolio.git"
   },
-  "dependencies": {}
+  "author": "Sonie Abraha <sonieabraham@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssabraham2000/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/ssabraham2000/my-portfolio#readme"
 }
