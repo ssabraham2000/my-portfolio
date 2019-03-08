@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-builder",
+  "version": "1.0.0",
+  "description": "My Portfolio Builder",
+  "local-web-server": {
+    "port": 8000,
+    "forbid": "*.json"
+  },
+  "scripts": {
+    "start": "ws",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sonie Abraham",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "local-web-server": "^1.1.0"
+  },
+  "dependencies": {}
+}
